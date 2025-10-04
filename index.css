@@ -1,0 +1,161 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #fbe4f0, #fdf6f9);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  color: #4a2c4d;
+}
+
+
+main {
+  background: #fff;
+  margin-top: 40px;
+  padding: 25px 30px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 20px rgba(200, 150, 180, 0.3);
+  width: 400px;
+  text-align: center;
+  border: 2px solid #f3b6d3;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #c63f7a;
+}
+
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #f3b6d3;
+  outline: none;
+  font-size: 14px;
+}
+
+form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  background: #f78fb3;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #e17092;
+}
+
+
+.filters {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.filters button {
+  padding: 8px 14px;
+  border-radius: 15px;
+  border: 1px solid #f3b6d3;
+  background: #fce4ec;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.filters button:hover {
+  background: #f8bbd0;
+}
+
+.filters button.active {
+  background: #ec407a;
+  color: white;
+  border: 1px solid #ec407a;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: #fff0f6;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #f3b6d3;
+  transition: 0.3s;
+}
+
+li:hover {
+  transform: scale(1.02);
+}
+
+
+.task-text {
+  font-size: 14px;
+  color: #5c375f;
+}
+
+.task-text.completed {
+  text-decoration: line-through;
+  color: #b68cb8;
+}
+
+
+li button {
+  margin-left: 5px;
+  padding: 6px 10px;
+  border-radius: 12px;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.complete-btn {
+  background: #c3aed6;
+  color: white;
+}
+
+.complete-btn:hover {
+  background: #9d7ac0;
+}
+
+.delete-btn {
+  background: #f78fb3;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #e17092;
+}
+
+
+.edit-input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #ec407a;
+  outline: none;
+}
